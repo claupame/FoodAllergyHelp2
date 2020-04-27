@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@color/backgr4"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:paddingTop="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/tvAlergeno"
+            android:paddingTop="8dp"
+            android:textSize="18dp"
+            android:text="value"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <lecho.lib.hellocharts.view.PieChartView
+                    android:id="@+id/chart"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+</LinearLayout>

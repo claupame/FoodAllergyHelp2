@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "652237674940",
+    "firebase_url": "https://foodallergyhelp-1e0b8.firebaseio.com",
+    "project_id": "foodallergyhelp-1e0b8",
+    "storage_bucket": "foodallergyhelp-1e0b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652237674940:android:e54fa28a556ff03aa6b3b9",
+        "android_client_info": {
+          "package_name": "com.example.foodallergyhelp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652237674940-96bap6vlglqgi5n386va0bbte67r9kk7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.foodallergyhelp",
+            "certificate_hash": "5a3ffeb6690254c075cb40f3951845fbbe9e5cec"
+          }
+        },
+        {
+          "client_id": "652237674940-djqbvqnmkmf60luqkj24sg1kq4ibccu6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYJI2V2Dq89aRwsegL6QeWaxcWtD4TF7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "652237674940-djqbvqnmkmf60luqkj24sg1kq4ibccu6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

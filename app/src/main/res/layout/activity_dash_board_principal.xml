@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashBoardPrincipal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cdvUserProfile"
+            android:layout_width="270dp"
+            android:layout_height="80dp"
+            app:cardCornerRadius="10dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:padding="4dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/usuario"/>
+
+                <LinearLayout
+                    android:padding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:text="User Profile"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="29dp"
+                        android:text="User's personal data"
+                        android:textSize="10dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cdvRecipies"
+            android:layout_width="270dp"
+            android:layout_height="80dp"
+            app:cardCornerRadius="10dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:padding="4dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/receta2"/>
+
+                <LinearLayout
+                    android:padding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:text="Recipes Search"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Recipe search and analysis"
+                        android:textSize="10dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cdvScan"
+            android:layout_width="270dp"
+            android:layout_height="80dp"
+            app:cardCornerRadius="10dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:padding="4dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/scan"/>
+
+                <LinearLayout
+                    android:padding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:text="Scan"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:text="Text scanning, analysis and translation"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cdvUpload"
+            android:layout_width="270dp"
+            android:layout_height="80dp"
+            app:cardCornerRadius="10dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:padding="4dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/upload"/>
+
+                <LinearLayout
+                    android:padding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:text="Upload"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:text="Upload, analysis and translate images"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:paddingRight="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="right">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+
+                app:cardUseCompatPadding="true">
+
+
+            <ImageView
+                android:id="@+id/imbSignout"
+                android:src="@drawable/signout3"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

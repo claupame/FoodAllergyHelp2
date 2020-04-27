@@ -1,0 +1,74 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "com.example.foodallergyhelp"
+        minSdkVersion 23
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+    packagingOptions {
+        exclude 'project.properties'
+        exclude 'META-INF/INDEX.LIST'
+    }
+
+}
+
+dependencies {
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.firebase:firebase-database:19.2.0'
+    implementation 'com.google.firebase:firebase-ml-vision:24.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    // para estilos
+    implementation 'com.google.android.material:material:1.0.0'
+
+    // para dashboiard
+    //AndroidX
+    implementation "androidx.cardview:cardview:1.0.0"
+
+    // para peticiones a RestAPI
+    implementation 'com.squareup.okhttp3:okhttp:3.4.1'
+
+    // para traduccion
+
+    implementation 'com.google.firebase:firebase-ml-natural-language:22.0.0'
+    implementation 'com.google.firebase:firebase-ml-natural-language-translate-model:20.0.7'
+    implementation 'com.google.firebase:firebase-ml-natural-language-language-id-model:20.0.7'
+
+    implementation('com.google.cloud:google-cloud-translate:1.12.0') {
+        exclude group: 'org.apache.httpcomponents'
+        exclude group: 'org.json', module: 'json'
+        exclude group: 'com.google.auto.value', module: 'auto-value'
+        exclude group: 'com.google.protobuf', module: 'protobuf-java'
+    }
+    annotationProcessor 'com.google.cloud:google-cloud-translate:1.12.0'
+
+    implementation 'com.squareup.picasso:picasso:2.5.2';
+
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+
+    implementation 'com.google.android.gms:play-services-vision:15.0.1'
+
+    implementation 'com.github.lecho:hellocharts-library:1.5.8@aar'
+
+}

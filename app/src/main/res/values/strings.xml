@@ -1,0 +1,183 @@
+<resources>
+    <string name="app_name">Food Allergy</string>
+    <string name="no_aller">Allergens NOT detected</string>
+    <string name="no_aller_title">Information</string>
+    <string name="aller_det">Dangerous ingredients detected</string>
+    <string name="aller_det_title">Caution!!!</string>
+
+    <string name="host_header">x-rapidapi-host</string>
+    <string name="host">spoonacular-recipe-food-nutrition-v1.p.rapidapi.com</string>
+    <string name="key_header">x-rapidapi-key</string>
+    <string name="key">55eaaaee55msh9696918a99b2151p16808fjsn112e1b0dba20</string>
+    <string name="message_logout">Do you want to log out?</string>
+    <string name="val_s_defecto">none</string>
+    <integer name="val_n_defecto">10</integer>
+    <integer name="val_n_defecto_ing">5</integer>
+
+
+    <string-array name="cocina_arrays">
+        <item>none</item>
+        <item>african</item>
+        <item>american</item>
+        <item>british</item>
+        <item>cajun</item>
+        <item>caribbean</item>
+        <item>chinese</item>
+        <item>eastern</item>
+        <item>eastern european</item>
+        <item>french</item>
+        <item>german</item>
+        <item>greek</item>
+        <item>indian</item>
+        <item>irish</item>
+        <item>italian</item>
+        <item>japanese</item>
+        <item>jewish</item>
+        <item>korean</item>
+        <item>latin american</item>
+        <item>mexican</item>
+        <item>middle</item>
+        <item>nordic</item>
+        <item>southern</item>
+        <item>spanish</item>
+        <item>thai</item>
+        <item>vietnamese</item>
+    </string-array>
+
+    <string-array name="dieta_arrays">
+        <item>none</item>
+        <item>pescetarian</item>
+        <item>lacto vegetarian</item>
+        <item>ovo vegetarian</item>
+        <item>vegan</item>
+        <item>vegetarian</item>
+    </string-array>
+
+    <string-array name="intolerancias_arrays">
+        <item>none</item>
+        <item>chocolate</item>
+        <item>coffee</item>
+
+        <item>egg</item>
+        <item>gluten</item>
+        <item>milk</item>
+        <item>peanut</item>
+        <item>sesame</item>
+        <item>fish</item>
+        <item>soy</item>
+        <item>sulfite</item>
+        <item>tree nut</item>
+        <item>wheat</item>
+    </string-array>
+
+    <string-array name="alergias_arrays">
+        <item>chocolate</item>
+        <item>coffee</item>
+
+        <item>egg</item>
+        <item>gluten</item>
+        <item>milk</item>
+        <item>peanut</item>
+        <item>sesame</item>
+        <item>fish</item>
+        <item>soy</item>
+        <item>sulfite</item>
+        <item>tree nut</item>
+        <item>wheat</item>
+    </string-array>
+
+    <integer-array name="alergias_ico_arrays">
+        <item>@drawable/chocolate</item>
+        <item>@drawable/coffe</item>
+
+        <item>@drawable/egg2</item>
+        <item>@drawable/gluten</item>
+        <item>@drawable/dairy</item>
+        <item>@drawable/peanut</item>
+        <item>@drawable/sesame</item>
+        <item>@drawable/seafood</item>
+        <item>@drawable/soy</item>
+        <item>@drawable/sulfite</item>
+        <item>@drawable/treenut</item>
+        <item>@drawable/wheat</item>
+    </integer-array>
+
+    <integer-array name="ingred_ico_arrays">
+        <item>@drawable/ingrediente</item>
+    </integer-array>
+
+
+    <string-array name="tipo_plato_arrays">
+        <item>none</item>
+        <item>appetizer</item>
+        <item>beverage</item>
+        <item>bread</item>
+        <item>breakfast</item>
+        <item>dessert</item>
+        <item>drink</item>
+        <item>main course</item>
+        <item>salad</item>
+        <item>sauce</item>
+        <item>side dish</item>
+        <item>soup</item>
+
+    </string-array>
+
+
+    <string-array name="idioma_cod_arrays">
+        <item>ca</item>
+        <item>en</item>
+        <item>fr</item>
+        <item>de</item>
+        <item>it</item>
+        <item>ja</item>
+        <item>ko</item>
+        <item>ru</item>
+        <item>es</item>
+
+    </string-array>
+
+    <string-array name="idioma_nombre_arrays">
+        <item>Catalan</item>
+        <item>English</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>Russian</item>
+        <item>Spanish</item>
+
+    </string-array>
+
+
+
+    <string-array name="idioma_cod_arrays_2">
+        <item>n</item>
+        <item>ca</item>
+        <item>en</item>
+        <item>fr</item>
+        <item>de</item>
+        <item>it</item>
+        <item>ja</item>
+        <item>ko</item>
+        <item>ru</item>
+        <item>es</item>
+
+    </string-array>
+
+    <string-array name="idioma_nombre_arrays_2">
+        <item>Auto-Detect</item>
+        <item>Catalan</item>
+        <item>English</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>Russian</item>
+        <item>Spanish</item>
+
+    </string-array>
+
+</resources>
